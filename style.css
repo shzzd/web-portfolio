@@ -35,11 +35,36 @@ section{
     color: white;
     font-weight: bold;
 }
-.b{
+.mid-banner{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
-.b img{
+.mid-banner img{
     width: 90%;
+}
+.exp{
+    box-shadow:10px 10px 40px gray;
+    border-radius: 5px;
+    height: 40%;
+    background-color: white;
+}
+.bottom-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, lightSalmon, orangered);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+p{
+    text-align: center;
+    font-size: 12;
 }
